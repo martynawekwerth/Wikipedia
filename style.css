@@ -1,0 +1,105 @@
+body {
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.li {
+  display: list-item;
+}
+
+.content:link {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.logo {
+  width: 10em;
+  height: 160px;
+}
+
+.left {
+  position: absolute;
+  width: 10em;
+}
+
+table {
+  display: grid;
+  border-collapse: collapse;
+  margin: 0 0 0.4em 1.4em;
+  word-wrap: break-word;
+  width: min-content;
+  float: right;
+}
+
+caption {
+  border: 0.5px solid grey;
+}
+
+.picture {
+  width: 188px;
+  height: 240px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.introduction {
+  display: block;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+}
+
+.decoration1 {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.decoration2 {
+  text-align: right;
+  vertical-align: middle;
+}
+
+tr {
+  border: 0.5px solid grey;
+}
+
+.image {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.mini-table {
+  border-collapse: separate;
+  background-color: #eee;
+  border: 0.5px solid #eee;
+  width: 50px;
+  text-align: left;
+  vertical-align: top;
+  display: table-cell;
+  font-size: calc(1em * 0.875);
+}
+
+.details {
+  width: 150px;
+  text-align: left;
+  font-weight: normal;
+  display: block;
+  font-size: calc(1em * 0.875);
+}
+
+p {
+  float: left;
+  display: contents;
+  font-size: calc(1em * 0.875);
+  color: #202122;
+}
